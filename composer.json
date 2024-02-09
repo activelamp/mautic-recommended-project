@@ -27,6 +27,7 @@
   ],
   "require": {
     "composer/installers": "^1.11",
+    "wikimedia/composer-merge-plugin": "^2.1",
     "mautic/core-composer-scaffold": "4.x-dev",
     "mautic/core-project-message": "4.x-dev",
     "mautic/core-lib": "5.x-dev",
@@ -88,7 +89,8 @@
       "symfony/flex": true,
       "mautic/core-composer-scaffold": true,
       "mautic/core-project-message": true,
-      "php-http/discovery": true
+      "php-http/discovery": true,
+      "wikimedia/composer-merge-plugin": true
     }
   },
   "autoload": {
@@ -148,6 +150,18 @@
         "  * Remove the plugin that prints this message:",
         "      composer remove mautic/core-project-message"
       ]
+    },
+    "merge-plugin": {
+      "include": [
+        "./patch-composer.json"
+      ],
+      "recurse": true,
+      "replace": false,
+      "ignore-duplicates": false,
+      "merge-dev": true,
+      "merge-extra": true,
+      "merge-extra-deep": true,
+      "merge-scripts": false
     }
   }
 }
