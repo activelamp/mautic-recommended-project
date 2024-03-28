@@ -90,8 +90,7 @@
       "mautic/core-composer-scaffold": true,
       "mautic/core-project-message": true,
       "php-http/discovery": true,
-      "wikimedia/composer-merge-plugin": true,
-      "cweagans/composer-patches": true
+      "wikimedia/composer-merge-plugin": true
     }
   },
   "autoload": {

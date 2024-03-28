@@ -1,5 +1,7 @@
 {
   "require": {
+    "cakedc/oauth2-cognito": "^2.0",
+    "knpuniversity/oauth2-client-bundle": "^2.17",
     "symfony/amqp-messenger": "^5.4",
     "symfony/messenger": "^5.4",
     "cweagans/composer-patches": "~2.0"
