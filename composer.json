@@ -163,7 +163,8 @@
     "mautic/theme-survey" : "6.x-dev",
     "mautic/theme-trulypersonal" : "6.x-dev",
     "mautic/theme-vibrant" : "6.x-dev",
-    "mautic/theme-welcome" : "6.x-dev"
+    "mautic/theme-welcome" : "6.x-dev",
+    "wikimedia/composer-merge-plugin" : "^2.1"
   },
   "scripts" : {
     "generate-assets" : "@php bin/console mautic:assets:generate",
