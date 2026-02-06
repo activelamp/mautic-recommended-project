@@ -108,10 +108,16 @@
     }
   ],
   "require" : {
+    "cakedc/oauth2-cognito" : "^2.0",
     "composer/installers" : "^2.3",
+    "cweagans/composer-patches" : "~2.0",
+    "knpuniversity/oauth2-client-bundle" : "^2.17",
     "mautic/core-composer-scaffold" : "1.0.0",
     "mautic/core-lib" : "7.x-dev",
     "mautic/core-project-message" : "4.x-dev",
+    "symfony/amazon-sqs-messenger" : "~7.4.0",
+    "symfony/messenger" : "~7.4.0",
+    "symfony/serializer" : "~7.4.0",
     "mautic/grapes-js-builder-bundle" : "7.x-dev",
     "mautic/plugin-clearbit" : "7.x-dev",
     "mautic/plugin-cloudstorage" : "7.x-dev",
