@@ -113,7 +113,7 @@
     "cweagans/composer-patches" : "~2.0",
     "knpuniversity/oauth2-client-bundle" : "^2.17",
     "mautic/core-composer-scaffold" : "1.0.0",
-    "mautic/core-lib" : "7.x-dev",
+    "mautic/core-lib" : "7.x-dev#f2dd00005222dbc7d32da7f44fd43c0ec52b5db8",
     "mautic/core-project-message" : "4.x-dev",
     "symfony/amazon-sqs-messenger" : "~7.4.0",
     "symfony/messenger" : "~7.4.0",
